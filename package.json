@@ -1,0 +1,14 @@
+{
+  "name": "aviatorscript-cloudflare",
+  "private": true,
+  "version": "5.4.4-cloudflare",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node worker/interpreter.test.js"
+  },
+  "devDependencies": {
+    "wrangler": "^4.132.0"
+  }
+}
